@@ -2,15 +2,12 @@ body{
     background-color: peru;
 }
 
-h1{
-    color:#34495e;
-    transition: color .5s ease-in-out;
+
+
+.form,.greetings{
+    display: none;
 }
 
-.btn{
-    cursor: pointer;
-}
-
-.clicked{
-    color:#7f8c8d;
+.showing{
+    display: block;
 }
